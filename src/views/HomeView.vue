@@ -13,7 +13,7 @@ import DisclosureComponent from "../components/DisclosureComponent.vue";
 <template>
   <AppHeader class="flex-grow-0 flex-shrink-0" />
   <main class="flex-grow space-y-8 mt-8 mx-auto md:w-[768px] max-w-full">
-    <h1 class="text-center text-4xl font-bold">TE4 Academy</h1>
+    <h1 class="text-center text-4xl font-bold">TE4 Education</h1>
 
     <AppSection>
       <p>
