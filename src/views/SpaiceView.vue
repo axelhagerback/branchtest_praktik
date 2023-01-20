@@ -10,10 +10,10 @@ import SpaiceIcon from "../components/icons/SpaiceIcon.vue";
 <template>
   <AppHeader class="flex-grow-0 flex-shrink-0"
     ><div
-     
       class="p-2 bg-neutral-900 bg-opacity-75 rounded-lg shadow whitespace-nowrap flex gap-2"
-      ><SpaiceIcon/> SP-AICE </div
-    ></AppHeader
+    >
+      <SpaiceIcon /> SP-AICE
+    </div></AppHeader
   >
   <main class="flex-grow">
     <AppSectionTitle name="Team" />
@@ -60,12 +60,13 @@ import SpaiceIcon from "../components/icons/SpaiceIcon.vue";
           description="Mind Dump är en webbapplikation
     som man kan skapa anteckningar för sina behov. Den erbjuder funktioner som att
     ta bort och redigera nuvarande anteckningar."
-        images="[
-        'mind_dump/Mind_dump1.jpg'
-        'mind_dump/Mind_dump2.jpg'
-        'mind_dump/Mind_Dump3.jpg'
-        'mind_dump/Mind_Dump4.jpg'
-        ]"
+          :images="[
+            'mind_dump/Screenshot_6.png',
+            'mind_dump/Screenshot_2.png',
+            'mind_dump/Screenshot_3.png',
+            'mind_dump/Screenshot_4.png',
+            'mind_dump/Screenshot_5.png',
+          ]"
         />
       </div>
     </section>
